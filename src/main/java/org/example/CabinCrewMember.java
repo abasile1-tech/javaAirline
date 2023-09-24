@@ -16,4 +16,9 @@ public class CabinCrewMember {
     public Rank getRank() {
         return rank;
     }
+
+
+    public String relayMessageToPassenger(String message) {
+        return message;
+    }
 }
