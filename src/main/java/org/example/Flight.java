@@ -55,4 +55,16 @@ public class Flight {
     public String getDepartureTime() {
         return departureTime;
     }
+
+    public int getNumEmptySeats() {
+        return this.plane.getPlaneType().getPassengerCapacity() - this.getPassengers().size();
+    }
+
+    public boolean addPassenger(Passenger passenger) {
+        if (this.getNumEmptySeats() > 0) {
+            this.passengers.add(passenger);
+            return true;
+        }
+        return false;
+    }
 }
