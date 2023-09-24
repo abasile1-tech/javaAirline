@@ -13,4 +13,12 @@ public enum PlaneType {
         this.passengerCapacity = passengerCapacity;
         this.emptyWeight = emptyWeight;
     }
+
+    public int getPassengerCapacity() {
+        return passengerCapacity;
+    }
+
+    public int getEmptyWeight() {
+        return emptyWeight;
+    }
 }
