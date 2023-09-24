@@ -11,4 +11,8 @@ public class Pilot extends CabinCrewMember{
     public String getPilotLicenceNum() {
         return pilotLicenceNum;
     }
+
+    public String flyThePlane() {
+        return "I am flying the plane";
+    }
 }
