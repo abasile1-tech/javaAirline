@@ -14,4 +14,9 @@ public class PilotTest {
     public void canFlyThePlane() {
         assertEquals("I am flying the plane", pilot.flyThePlane());
     }
+
+    @Test
+    public void canGetName() {
+        assertEquals("Jenna", pilot.getName());
+    }
 }
